@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <arg name="world" default="medium" />
+    <arg name="algorithm" default="psodstar" />
+    <arg name="start_x" default="-4.5" />
+    <arg name="start_y" default="-4.5" />
+    <arg name="current_x" default="-4.5" />
+    <arg name="current_y" default="-4.5" />
+    <arg name="goal_x" default="4.5" />
+    <arg name="goal_y" default="4.5" />
+    <param name="world" value="$(arg world)" />
+    <param name="algorithm" value="$(arg algorithm)" />
+    <param name="start_x" value="$(arg start_x)" />
+    <param name="start_y" value="$(arg start_y)" />
+    <param name="current_x" value="$(arg current_x)" />
+    <param name="current_y" value="$(arg current_y)" />
+    <param name="goal_x" value="$(arg goal_x)" />
+    <param name="goal_y" value="$(arg goal_y)" />
+    <node pkg="path_planning" type="follow_wall.py" name="follow_wall" output="screen" />
+    <node pkg="path_planning" type="go_to_point.py" name="go_to_point" output="screen" />
+    <node pkg="path_planning" type="PSODStar.py" name="psodstar" output="screen" />
+</launch>
