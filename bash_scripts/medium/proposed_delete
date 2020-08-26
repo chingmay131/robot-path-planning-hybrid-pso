@@ -1,6 +1,6 @@
 #!/bin/bash  
 source /opt/ros/kinetic/setup.bash
-cd ~/catkin_wsc
+cd ~/catkin_ws
 source devel/setup.bash
 echo $ROS_PACKAGE_PATH
 rosservice call gazebo/delete_model '{model_name: tb3burger}'
