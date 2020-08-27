@@ -7,12 +7,12 @@
    - **existing1_delete** - for restarting the robot's navigation using PSOA algorithm
    - **existing2** - for spawning robot, followed by running **PSOD** algorithm for path planning
    - **existing2_delete** - for restarting the robot's navigation using PSOD algorithm
-   - **easy_rviz** - for launching rviz (ROS visualization tool)
+   - **easy_rviz** - for launching rviz
 
 2. Medium folder - containing bash scripts for **Medium level world**
    - **medium_world** - for launching Medium level world in Gazebo
-   - **medium_rviz** - for launching rviz (ROS visualization tool)
+   - **medium_rviz** - for launching rviz
 
 3. Hard folder - containing bash scripts for **Hard level world**
    - **hard_world** - for launching Hard level world in Gazebo
-   - **hard_rviz** - for launching rviz (ROS visualization tool)
+   - **hard_rviz** - for launching rviz

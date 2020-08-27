@@ -32,7 +32,7 @@ PSOFS is a hybrid algorithm of [PSO](https://en.wikipedia.org/wiki/Particle_swar
 
 ## How to Use bash_scripts Folder
 1. Open Terminal in Ubuntu
-2. Modify permissions for all files in bash_scripts folder
+2. Change access permissions for all files in bash_scripts folder
 ```
 chmod a+x "bash_scripts/"*
 ```
