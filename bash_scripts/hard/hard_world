@@ -1,0 +1,6 @@
+#!/bin/bash  
+source /opt/ros/kinetic/setup.bash
+cd ~/catkin_wsc
+source devel/setup.bash
+echo $ROS_PACKAGE_PATH
+roslaunch turtlebot3_gazebo hard_10x10_wall_world.launch
