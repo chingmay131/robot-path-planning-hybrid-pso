@@ -56,7 +56,7 @@ This bash script will spawn the robot to Easy level world, and the robot will st
 **Optional Steps:**
 
 7. Open the third Terminal window and change to the same working directory
-8. Launch rviz to visualize the robot's laser scan
+8. Launch [rviz](http://wiki.ros.org/rviz) to visualize the robot's laser scan
 ```
 ./easy_rviz
 ```
