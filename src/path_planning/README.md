@@ -20,14 +20,12 @@
      - for path planning and navigation in **Hard** level world using **PSOD** algorithm
 
 2. scripts folder
-   - **PSO.py**
-     - containing code for [PSO](https://en.wikipedia.org/wiki/Particle_swarm_optimization) algorithm
-   - **FringeSearch.py**
-     - containing code for [Fringe Search](https://en.wikipedia.org/wiki/Fringe_search) algorithm
-   - **AStar.py**
-     - containing code for [A* Search](https://en.wikipedia.org/wiki/A*_search_algorithm) algorithm
-   - **DStar.py**
-     - containing code for [D*](https://en.wikipedia.org/wiki/D*) algorithm
+   - **PSOFS.py**
+     - containing code for the hybrid algorithm of [PSO](https://en.wikipedia.org/wiki/Particle_swarm_optimization) and [Fringe Search](https://en.wikipedia.org/wiki/Fringe_search) algorithms
+   - **PSOA.py**
+     - containing code for the hybrid algorithm of PSO and [A* Search](https://en.wikipedia.org/wiki/A*_search_algorithm) algorithms
+   - **PSOD.py**
+     - containing code for the hybrid algorithm of PSO and [D*](https://en.wikipedia.org/wiki/D*) algorithms
    - **ObjectiveFunction.py**
      - containing code for evaluating the length, smoothness, and safety of a path, followed by creating a [pareto optimal](https://en.wikipedia.org/wiki/Pareto_efficiency) solution for the respective path using the returned values 
    - **Obstacle.py**
