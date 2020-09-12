@@ -1,4 +1,4 @@
-# Path Planning for Mobile Robot Navigation in Unknown Indoor Environments Using Hybrid Metaheuristic Algorithms
+# (Update in progress) Path Planning for Mobile Robot Navigation in Unknown Indoor Environments Using Hybrid Metaheuristic Algorithms
 1. launch folder
    - **proposed_easy.launch**
      - for path planning and navigation in **Easy** level world using **PSOFS** algorithm
